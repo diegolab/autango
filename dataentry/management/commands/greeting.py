@@ -22,4 +22,7 @@ class Command(BaseCommand):
         # self.stderr.write(greeting)
 
         # * success message:
-        self.stdout.write(self.style.SUCCESS(greeting))
+        # self.stdout.write(self.style.SUCCESS(greeting))
+
+        self.stdout.write(self.style.WARNING(greeting))
+        # ^ warning message:
