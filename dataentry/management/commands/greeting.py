@@ -16,8 +16,10 @@ class Command(BaseCommand):
         # we write the logic
         name = kwargs['name']
         greeting = f"Hi {name}, good morning !"
-        self.stdout.write(greeting)
+        # self.stdout.write(greeting)
         
         # ~ stderr -> print a error in red color:
         # self.stderr.write(greeting)
-        
+
+        # * success message:
+        self.stdout.write(self.style.SUCCESS(greeting))
