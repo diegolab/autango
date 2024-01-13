@@ -1,0 +1,1 @@
+https://github.com/dev-rathankumar/automate-with-django
