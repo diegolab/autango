@@ -18,4 +18,6 @@ class Command(BaseCommand):
         greeting = f"Hi {name}, good morning !"
         self.stdout.write(greeting)
         
-
+        # ~ stderr -> print a error in red color:
+        # self.stderr.write(greeting)
+        
